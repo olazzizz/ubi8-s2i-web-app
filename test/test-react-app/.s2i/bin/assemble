@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Beginning of the customization section"
+echo "Hello I am STICKMAN" >> /opt/app-root/src/public/help.html
+echo "End of the customization section"
+
+/usr/libexec/s2i/assemble
